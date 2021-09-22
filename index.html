@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Conversor de moedas</title>
+    <link REL="icon" href="/Conversor de moedas/img/coin.png">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="box-container">
+        <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+            
+      <label>Escolha uma moeda</label><br>
+      <select name="Moedas" id="moedas">
+          <option value="5.24">Dólar - EUA</option>
+          <option value="4.13">Dólar - CA</option>
+          <option value="6.19">Euro</option>
+          <option value="7.23">Libra</option>
+          <option value="0.26">Peso - MX</option>
+          <option value="0.053">Peso - ARG</option>
+      </select> <br>
+      
+
+      <label>Insira o montante</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <button type="submit" onclick="Converter()">Converter</button>
+        <div id="resultado">
+            O resultado em real aparecerá aqui.
+        </div>
+        
+        </div>
+        <div class="footer">        
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br>
+        Valeska Leandro, 2021<br>
+        <a href="https://github.com/ValeskaLeandro">GitHub</a> •
+        <a href="https://www.linkedin.com/in/valeska-leandro-b760a71b4/">Linked</a>•
+        <a href="https://www.instagram.com/ValeskaLeandro/">Instagram</a>
+        </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
